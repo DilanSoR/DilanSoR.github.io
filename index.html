@@ -1,18 +1,154 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Portafolio de Dilan</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <h1>Hola, soy Dilan 👨‍💻</h1>
-  <p>Desarrollador en formación en Data Science y Backend</p>
 
-  <h2>Proyectos</h2>
-  <ul>
-    <li>Proyecto 1 - Limpieza de datos con Python</li>
-    <li>Proyecto 2 - API en Spring Boot</li>
-  </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dilan Soriano | Data Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+        <h2 class="logo">Dilan Soriano</h2>
+
+        <ul class="nav-links">
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <header class="hero">
+
+        <div class="hero-text">
+            <h1>Data Analyst & Backend Developer</h1>
+
+            <p>
+                Transformando datos complejos en información útil
+                mediante Python, SQL y arquitectura backend.
+            </p>
+
+            <a href="#projects" class="button">
+                Ver proyectos
+            </a>
+        </div>
+
+    </header>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section">
+
+        <h2>Sobre mí</h2>
+
+        <p>
+            Soy un desarrollador enfocado en análisis de datos,
+            automatización y backend.
+
+            Tengo experiencia trabajando con Python,
+            PostgreSQL, pandas, Spring Boot y procesamiento
+            de grandes volúmenes de información educativa.
+        </p>
+
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section">
+
+        <h2>Proyectos</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+
+                <h3>Dashboard de asistencia</h3>
+
+                <p>
+                    Sistema de análisis de asistencia usando
+                    Python, PostgreSQL y visualización de datos.
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>Limpieza masiva de Excel</h3>
+
+                <p>
+                    Automatización de auditoría y validación
+                    de archivos Excel usando pandas.
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>API de cursos</h3>
+
+                <p>
+                    API REST desarrollada con Spring Boot
+                    y QueryDSL para filtrado dinámico.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section">
+
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+
+            <span>Python</span>
+            <span>SQL</span>
+            <span>PostgreSQL</span>
+            <span>pandas</span>
+            <span>Spring Boot</span>
+            <span>MongoDB</span>
+            <span>Git</span>
+            <span>Java</span>
+
+        </div>
+
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section">
+
+        <h2>Contacto</h2>
+
+        <p>Email: dilan@example.com</p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/TU-USUARIO" target="_blank">
+                github.com/TU-USUARIO
+            </a>
+        </p>
+
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+
+        <p>
+            © 2026 Dilan Soriano
+        </p>
+
+    </footer>
+
+    <script src="app.js"></script>
+
 </body>
+
 </html>
